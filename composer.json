@@ -1,0 +1,20 @@
+{
+    "name": "localdisk/schedule",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "localdisk",
+            "email": "smoochynet@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Localdisk\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "roave/security-advisories": "dev-master",
+        "cocur/background-process": "0.*"
+    }
+}
